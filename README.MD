@@ -1,0 +1,1 @@
+This is a Java class designed for concatenating strings, similar to Java's StringBuilder, but with additional support for undo operations.

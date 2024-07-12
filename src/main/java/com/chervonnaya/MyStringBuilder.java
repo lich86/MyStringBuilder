@@ -8,7 +8,7 @@ public class MyStringBuilder {
     private static final int DEFAULT_CAPACITY = 16;
     private char[] buffer;
     private int currentLength;
-    private Stack<Snapshot> snapshots;
+    private final Stack<Snapshot> snapshots;
 
     public MyStringBuilder() {
         buffer = new char[DEFAULT_CAPACITY];
